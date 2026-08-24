@@ -22,7 +22,7 @@ function Presentacion() {
                             Me especializo en construir aplicaciones web modernas.
                         </p>
                         <p>
-                            Actualmente me encuentro en la última etapa para graduarme como Ingeniero en Tecnologías de la Información.
+                            Actualmente me encuentro cursando el ultimo semestre de la carrera de Tecnologías de la Información en la Universidad Eloy Alfaro de Manabí.
                         </p>
                         <p>
                             Me encanta resolver problemas complejos y transformar diseños en código de alta calidad.

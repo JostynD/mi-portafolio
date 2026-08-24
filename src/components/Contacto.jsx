@@ -19,9 +19,9 @@ function Contacto() {
         </a>
 
         <div className="mt-12 flex gap-8 text-gray-500">
-          <a href="https://github.com/JostynD" className="transition-all hover:scale-110 hover:text-white"><FaGithub size={32} /></a>
-          <a href="#" className="transition-all hover:scale-110 hover:text-blue-400"><FaLinkedin size={32} /></a>
-          <a href="#" className="transition-all hover:scale-110 hover:text-white"><Mail size={32} /></a>
+          <a href="https://github.com/JostynD" target="_blank" rel="noreferrer" className="transition-all hover:scale-110 hover:text-white"><FaGithub size={32} /></a>
+          <a href="https://www.linkedin.com/in/jostynmuentesroca/" target="_blank" rel="noreferrer" className="transition-all hover:scale-110 hover:text-blue-400"><FaLinkedin size={32} /></a>
+          <a href="mailto:jostynroca2@gmail.com" className="transition-all hover:scale-110 hover:text-white "><Mail size={32} /></a>
         </div>
         <p className="mt-10 text-sm text-gray-600">Diseñado y construido con React & Tailwind</p>
       </div>
