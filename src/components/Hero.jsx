@@ -18,7 +18,7 @@ function Hero({ heroRef, avatar, heroScale, heroTranslateY, heroOpacity, scrollH
           Hola, soy <span className="text-blue-500">Jostyn Muentes</span>
         </h1>
         <p className="mx-auto max-w-xl text-base font-light leading-relaxed text-gray-400 sm:text-lg md:text-xl">
-          Desarrollador full stack. Creo experiencias digitales tanto webs como moviles.
+          Soy un Desarrollador full stack.
         </p>
       </motion.div>
 

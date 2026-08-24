@@ -2,7 +2,7 @@ import Section from './Section';
 
 function Presentacion() {
     const skillGroups = [
-        { title: 'Lenguajes y Frameworks', skills: ['Laravel','PHP','React','React native','JavaScript', 'React', 'Python','Node.js', 'HTML/CSS', 'Tailwind'] },
+        { title: 'Lenguajes y Frameworks', skills: ['Laravel','PHP','React','React native','Vue','JavaScript', 'React', 'Python','Node.js', 'HTML/CSS', 'Tailwind'] },
         { title: 'Bases de datos', skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Firebase'] },
         { title: 'Inteligencia artificial', skills: ['OpenAI API', 'Gemini API', 'Anthropic API', 'Machine Learning'] },
         { title: 'Herramientas', skills: ['Git', 'GitHub', 'Figma', 'Docker', 'VS Code'] }
