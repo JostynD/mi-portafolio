@@ -1,4 +1,4 @@
-import Section from './Section';
+import Section from './section';
 
 function Presentacion() {
     const skillGroups = [
@@ -9,10 +9,10 @@ function Presentacion() {
     ];
 
     return (
-        <Section id="presentacion" className="bg-gray-900/50">
+        <Section id="presentacion" className="bg-slate-900/50">
             <div className="mx-auto w-full max-w-5xl">
                 <h2 className="mb-10 flex items-center gap-4 text-2xl font-bold md:text-4xl">
-                    <span className="text-xl text-blue-500 md:text-3xl">01.</span> Sobre Mí
+                    Sobre Mí
                 </h2>
 
                 <div className="grid items-start gap-12 text-base leading-relaxed text-gray-300 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:text-lg">

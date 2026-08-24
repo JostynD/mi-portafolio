@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Code, ExternalLink } from 'lucide-react';
-import Section from './Section';
+import Section from './section';
 
 const projects = [
   {
@@ -60,10 +60,10 @@ const projects = [
 
 function Proyectos() {
   return (
-    <Section id="proyectos">
+    <Section id="proyectos" className="bg-slate-950/50">
       <div className="mx-auto w-full max-w-5xl">
         <h2 className="mb-12 flex items-center gap-4 text-2xl font-bold md:text-4xl">
-          <span className="text-xl text-blue-500 md:text-3xl">02.</span> Mis Proyectos
+          Mis Proyectos academicos
         </h2>
         <div className="grid gap-10 md:grid-cols-2">
           {projects.map((project) => (

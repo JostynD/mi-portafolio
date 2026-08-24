@@ -1,10 +1,10 @@
 import { Mail } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import Section from './Section';
+import Section from './section';
 
 function Contacto() {
   return (
-    <Section id="contacto" className="!min-h-[calc(100vh-5rem)] bg-gray-900/50 py-12 md:py-16">
+    <Section id="contacto" className="!min-h-[calc(100vh-5rem)] bg-slate-900/50 py-12 md:py-16">
       <div className="mx-auto flex w-full max-w-3xl flex-col items-center justify-center text-center">
         <h2 className="mb-6 text-3xl font-bold md:text-5xl">¿Trabajamos Juntos?</h2>
         <p className="mb-10 text-base leading-relaxed text-gray-400 md:text-lg">

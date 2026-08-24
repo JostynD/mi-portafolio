@@ -2,10 +2,11 @@ import { useEffect, useRef, useState } from 'react';
 import { useScroll, useTransform } from 'framer-motion';
 import avatar from './assets/avatar.jpg';
 import Certificaciones from './components/certificaciones';
-import Contacto from './components/Contacto';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Presentacion from './components/Presentacion';
+import Contacto from './components/contacto';
+import Experiencia from './components/experiencia';
+import Header from './components/header';
+import Hero from './components/hero';
+import Presentacion from './components/presentacion';
 import Proyectos from './components/Proyectos';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     { id: 'presentacion', label: 'Presentación' },
     { id: 'proyectos', label: 'Mis proyectos' },
     { id: 'certificaciones', label: 'Certificaciones' },
+    { id: 'experiencia', label: 'Experiencia' },
     { id: 'contacto', label: 'Contacto' }
   ];
 
@@ -94,6 +96,7 @@ function App() {
         <Presentacion />
         <Proyectos />
         <Certificaciones />
+        <Experiencia />
         <Contacto />
       </main>
     </div>

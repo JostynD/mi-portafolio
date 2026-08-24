@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Award, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
-import Section from './Section';
+import Section from './section';
 
 const certifications = [
 	{
@@ -172,10 +172,10 @@ function Certificaciones() {
 	};
 
 	return (
-		<Section id="certificaciones" className="bg-emerald-950/20">
+		<Section id="certificaciones" className="bg-slate-900/50">
 			<div className="mx-auto w-full max-w-5xl">
 				<h2 className="mb-4 flex items-center gap-4 text-2xl font-bold md:text-4xl">
-					<span className="text-xl text-emerald-400 md:text-3xl">03.</span> Certificaciones
+					Certificaciones
 				</h2>
 				<p className="mb-10 max-w-2xl text-base leading-relaxed text-gray-400 md:text-lg">
 					Formación continua y conocimientos que complementan mi experiencia en desarrollo web.
