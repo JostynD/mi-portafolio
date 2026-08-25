@@ -4,34 +4,34 @@ import Section from './section';
 
 const experiences = [
   {
-    role: 'Soporte tecnico - Pasantia',
+    role: 'Soporte técnico - Pasantía',
     company: 'Hospital General Manta - IESS',
     period: 'Octubre 2025 - Enero 2026',
     location: 'Manta, Ecuador · Presencial',
     type: '180 horas',
     summary:
-      'Estuve como soporte tecnico en el area de informatica resolviendo problemas en equipos, hardware/software en distintas partes del hospital.',
+      'Estuve como soporte técnico en el área de informática resolviendo problemas en equipos, hardware/software en distintas partes del hospital.',
     achievements: [
       'Atención a solicitudes de soporte técnico de médicos, asistentes y otros usuarios.',
       'Instalación y configuración de software institucional en equipos de las diferentes áreas.',
       'Apoyo en la organización y gestión de equipos tecnológicos del área de informática.'
     ],
-    tech: ['Habilidades blandas', 'Comunicacion', 'Resolucion de problemas']
+    tech: ['Habilidades blandas', 'Comunicación', 'Resolución de problemas']
   },
   {
-    role: 'Desarrollo de software - Pasantia',
+    role: 'Desarrollo de software - Pasantía',
     company: 'Empresa Pública Estudios y Construcciones ULEAM-EP',
     period: 'Mayo 2026 - Junio 2026',
     location: 'Manta, Ecuador · Presencial',
     type: '120 horas',
     summary:
-      'Cumpli el papel de desarrollador de software atendiendo el requerimiento expuesto de los usuarios administrativos, desarolle un plugin en wordpress para la insercion y manejo de los certificados de la empresa.',
+      'Cumplí el papel de desarrollador de software atendiendo el requerimiento expuesto por los usuarios administrativos; desarrollé un plugin en WordPress para la inserción y manejo de los certificados de la empresa.',
     achievements: [
-      'Investigación sobre la arquitectura de WordPress, el desarrollo de plugins y el uso de sus APIs..',
+      'Investigación sobre la arquitectura de WordPress, el desarrollo de plugins y el uso de sus APIs.',
       'Diseño de la estructura del plugin, organización del código y planificación de las funcionalidades.',
       'Entrega e implementación del plugin completamente funcional, acompañado de una demostración de su funcionamiento al tutor institucional.'
     ],
-    tech: ['PHP', 'Wordpress', 'Recoleccion de requisitos']
+    tech: ['PHP', 'WordPress', 'Recolección de requisitos']
   },
 ];
 

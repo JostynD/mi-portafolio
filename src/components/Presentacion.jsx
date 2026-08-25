@@ -2,7 +2,7 @@ import Section from './section';
 
 function Presentacion() {
     const skillGroups = [
-        { title: 'Lenguajes y Frameworks', skills: ['Laravel','PHP','React','React native','Vue','JavaScript', 'React', 'Python','Node.js', 'HTML/CSS', 'Tailwind'] },
+        { title: 'Lenguajes y frameworks', skills: ['Laravel', 'PHP', 'React', 'React Native', 'Vue', 'JavaScript', 'Python', 'Node.js', 'HTML/CSS', 'Tailwind'] },
         { title: 'Bases de datos', skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Firebase'] },
         { title: 'Inteligencia artificial', skills: ['OpenAI API', 'Gemini API', 'Anthropic API', 'Machine Learning'] },
         { title: 'Herramientas', skills: ['Git', 'GitHub', 'Figma', 'Docker', 'VS Code'] }
@@ -12,21 +12,21 @@ function Presentacion() {
         <Section id="presentacion" className="bg-slate-900/50">
             <div className="mx-auto w-full max-w-5xl">
                 <h2 className="mb-10 flex items-center gap-4 text-2xl font-bold md:text-4xl">
-                    Sobre Mí
+                    Sobre mí
                 </h2>
 
                 <div className="grid items-start gap-12 text-base leading-relaxed text-gray-300 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:text-lg">
                     <div className="space-y-6">
                         <p>
                             Soy un desarrollador autodidacta apasionado por crear interfaces limpias y experiencias de usuario fluidas.
-                            Me especializo en construir aplicaciones web modernas.
+                            Me especializo en la creación de aplicaciones web modernas y escalables.
                         </p>
                         <p>
-                            Actualmente me encuentro cursando el ultimo semestre de la carrera de Tecnologías de la Información en la Universidad Eloy Alfaro de Manabí.
+                            Actualmente, me encuentro cursando el último semestre de la carrera de Tecnologías de la Información en la Universidad Eloy Alfaro de Manabí (ULEAM).
                         </p>
                         <p>
-                            Me encanta resolver problemas complejos y transformar diseños en código de alta calidad.
-                            Siempre estoy buscando aprender nuevas tecnologías y mejorar mis habilidades.
+                            Me gusta resolver problemas complejos y transformar ideas en soluciones funcionales de alta calidad.
+                            Siempre estoy buscando aprender nuevas tecnologías y fortalecer mis habilidades.
                         </p>
                     </div>
 
