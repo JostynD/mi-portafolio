@@ -4,7 +4,7 @@ Portafolio personal desarrollado con React, Vite, Tailwind CSS y Framer Motion.
 
 ## Demo
 
-[Ver portafolio](https://tu-dominio.com)
+[Ver portafolio](https://jostynd.github.io/mi-portafolio/)
 
 ## Tecnologías
 
