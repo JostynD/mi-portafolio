@@ -22,6 +22,7 @@ function Contacto() {
           <a href="mailto:jostynroca2@gmail.com" className="transition-all hover:scale-110 hover:text-white "><Mail size={32} /></a>
         </div>
         <p className="mt-10 text-sm text-gray-600">Diseñado y construido con React & Tailwind</p>
+        <p className="mt-5 text-sm text-gray-600">Desplegado en Github Pages</p>
       </div>
     </Section>
   );
