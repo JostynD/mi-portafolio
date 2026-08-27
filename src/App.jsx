@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { useScroll, useTransform } from 'framer-motion';
-import avatar from './assets/avatar.jpg';
+import avatar from './assets/avatar.jpeg';
 import Certificaciones from './components/certificaciones';
 import Contacto from './components/contacto';
 import Experiencia from './components/experiencia';
